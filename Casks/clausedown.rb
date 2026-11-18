@@ -1,12 +1,12 @@
 cask "clausedown" do
-  version "0.9.1"
-  sha256 "604dae8c9211c8c9e509a0af32c12498d06a12c31b410c0833b110c43c88b43d"
+  version "0.10.0"
+  sha256 "31e8ac7efb36c68f0994a611267231eca7b88654599fbd8112a045a864e9a958"
 
   url "https://github.com/SHIOZAKI-Shota/ClauseDown/releases/download/v#{version}/ClauseDown-#{version}-arm64.dmg",
       verified: "github.com/SHIOZAKI-Shota/ClauseDown/"
   name "ClauseDown"
   desc "Editor for legal documents written in Markdown and managed with Git"
-  homepage "https://shiozaki-shota.github.io/ClauseDown/"
+  homepage "https://clausedown.app/"
 
   livecheck do
     url :url
