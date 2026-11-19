@@ -1,6 +1,6 @@
 cask "clausedown" do
-  version "0.10.0"
-  sha256 "31e8ac7efb36c68f0994a611267231eca7b88654599fbd8112a045a864e9a958"
+  version "0.10.1"
+  sha256 "bee01534b83aec5027922e0f2f15afb7ffba45123403eaf2e620a9d441ec01e8"
 
   url "https://github.com/SHIOZAKI-Shota/ClauseDown/releases/download/v#{version}/ClauseDown-#{version}-arm64.dmg",
       verified: "github.com/SHIOZAKI-Shota/ClauseDown/"
